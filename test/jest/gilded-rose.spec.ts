@@ -8,11 +8,12 @@ describe('Gilded Rose', () => {
   });
 });
 
+
 describe('GildedRose Class Constructor', () => {
   it('should initialize items array', () => {
       const testItems = [new Item('Test Item', 10, 20), new Item('Another Test Item', 5, 30)];
       const gildedRose = new GildedRose(testItems);
-      expect(gildedRose.items.length).toBe(2); // Check if two items are initialized
-      expect(gildedRose.items[0].name).toBe('Test Item'); // Additional checks can be added
+      expect(gildedRose.items.length).toBe(2);
+      expect(gildedRose.items).toEqual(testItems);
   });
 });

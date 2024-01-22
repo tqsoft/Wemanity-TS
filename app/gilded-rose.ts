@@ -21,9 +21,10 @@ export class GildedRose {
     for (let i = 0; i < this.items.length; i++) {
         let decreaseRate = 1;
 
-        if (this.items[i].name === 'Conjured') {
-            decreaseRate = 2;
-        }
+        if (this.items[i].name === 'Conjured Mana Cake') {
+          decreaseRate = 2;
+      }
+      
 
         if (this.items[i].name != 'Aged Brie' && this.items[i].name != 'Backstage passes to a TAFKAL80ETC concert') {
             if (this.items[i].quality > 0) {

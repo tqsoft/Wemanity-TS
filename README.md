@@ -70,4 +70,10 @@ npm run test:jest
 ```
 
 
-well, the above didn't seems to work, so i'm trying again
+## start changing the logic
+
+
+Conjured Items Logic: Added a variable decreaseRate to manage the rate of quality degradation. For "Conjured" items, this rate is set to 2, making them degrade twice as fast.
+
+Apply Decrease Rate: The decreaseRate is applied to the quality reduction logic for normal items and also when the sellIn value is below 0.
+

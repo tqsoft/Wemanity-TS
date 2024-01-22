@@ -68,3 +68,6 @@ i noticed that `line 16` in `gilded-rose.ts` is not covered by tests. I want to 
 ```sh
 npm run test:jest
 ```
+
+
+well, the above didn't seems to work, so i'm trying again

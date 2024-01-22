@@ -7,3 +7,11 @@ describe('Gilded Rose', () => {
     expect(items[0].name).toBe('foo');
   });
 });
+
+describe('GildedRose Class', () => {
+  it('should initialize items property', () => {
+      const testItems = [new Item('Test Item', 10, 20), new Item('Another Test Item', 5, 30)];
+      const gildedRose = new GildedRose(testItems);
+      expect(gildedRose.items).toEqual(testItems);
+  });
+});

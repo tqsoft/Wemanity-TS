@@ -5,6 +5,7 @@ Writing tests is a crucial part of software development, especially when refacto
 
 
 
+
 ## Getting started
 
 Install dependencies
@@ -58,3 +59,12 @@ There are instructions in the [TextTest Readme](../texttests/README.md) for sett
     interpreter:python
 
 
+
+
+## shai's notes and changes 
+
+i noticed that `line 16` in `gilded-rose.ts` is not covered by tests. I want to review this to see if an additional test case is needed. - done can be tested by running 
+
+```sh
+npm run test:jest
+```

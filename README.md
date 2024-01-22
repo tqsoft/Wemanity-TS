@@ -1,6 +1,9 @@
-# Gilded Rose
+# Gilded Rose - Shai Dayan Exam
 
 This is the Gilded Rose kata in TypeScript.
+Writing tests is a crucial part of software development, especially when refactoring code. Let's go through the steps to write tests for your TypeScript project, specifically for the Gilded Rose Refactoring Kata.
+
+
 
 ## Getting started
 

@@ -13,23 +13,7 @@
   },
   "license": "MIT",
   "private": true,
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node",
-    "transform": {
-      "^.+\\.ts$": "ts-jest"
-    },
-    "testMatch": [
-      "**/__tests__/**/*.ts",
-      "**/?(*.)+(spec|test).ts"
-    ],
-    "moduleFileExtensions": [
-      "ts",
-      "js",
-      "json",
-      "node"
-    ]
-  },
+
   "devDependencies": {
     "@types/chai": "^4.2.22",
     "@types/jest": "^29.5.11",
